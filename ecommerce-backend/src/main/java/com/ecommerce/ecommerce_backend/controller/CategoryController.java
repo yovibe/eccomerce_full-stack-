@@ -14,7 +14,6 @@ import java.util.List;
 @RestController
 @RequestMapping("/api/categories")
 @RequiredArgsConstructor
-@CrossOrigin(origins = {"http://localhost:5173", "https://eccomerce-full-stack.vercel.app"})
 public class CategoryController {
 
     private final CategoryService categoryService;
